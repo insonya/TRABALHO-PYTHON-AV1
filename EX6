@@ -1,0 +1,6 @@
+soma_dos_quadrados = 0
+for s in range(10):
+    soma_dos_quadrados += int(input(f"Digite o {s+1}º numero inteiro: ")) ** 2
+print(f"A soma dos quadrados dos numeros digitados é:  {soma_dos_quadrados}")
+
+# Utilizei a variavel S para fazer o incremento de numeros alocados dentro do range, utilizei o **2 para multiplicar o numero digitado vezes ele mesmo, por duas vezes.
